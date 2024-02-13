@@ -1,0 +1,14 @@
+{
+  "name": "ci-cd-express-app",
+  "version": "1.0.0",
+  "description": "proyect for ci-cd example",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
