@@ -4,11 +4,18 @@
   "description": "proyect for ci-cd example",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js"
+    "start": "node index.js",
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0",
+    "supertest": "^6.3.4"
   }
 }
